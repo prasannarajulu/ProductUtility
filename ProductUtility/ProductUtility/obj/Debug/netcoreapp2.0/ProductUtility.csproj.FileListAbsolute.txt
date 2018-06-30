@@ -1,0 +1,11 @@
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\bin\Debug\netcoreapp2.0\ProductUtility.deps.json
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\bin\Debug\netcoreapp2.0\ProductUtility.runtimeconfig.json
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\bin\Debug\netcoreapp2.0\ProductUtility.runtimeconfig.dev.json
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\bin\Debug\netcoreapp2.0\ProductUtility.dll
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.csprojResolveAssemblyReference.cache
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.csproj.CoreCompileInputs.cache
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.AssemblyInfoInputs.cache
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.AssemblyInfo.cs
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\bin\Debug\netcoreapp2.0\ProductUtility.pdb
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.dll
+C:\Users\Suraj\Desktop\ProductUtility\ProductUtility\ProductUtility\obj\Debug\netcoreapp2.0\ProductUtility.pdb
