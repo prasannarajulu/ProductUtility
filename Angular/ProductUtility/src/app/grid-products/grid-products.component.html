@@ -1,0 +1,25 @@
+<h1>List of Products</h1>
+<table>
+<thead>
+    <tr>
+		<th>Id</th>
+        <th>ShortSku</th>
+        <th>Description</th>
+        <th>Title</th>
+        <th>RetailPrice</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let productInfo of productsData"> 
+        <td>{{ productInfo.id }}</td>
+		<td>{{ productInfo.shortSku }}</td>
+        <td>{{ productInfo.description }}</td>
+        <td>{{ productInfo.title }}</td>
+        <td>{{ productInfo.retailPrice }}</td>
+        <td>
+            <a href="#" (click)="editRecord(productInfo)">Edit</a>
+            <a href="#" (click)="deleteRecord(productInfo)">Delete</a>
+        </td>
+    </tr>
+</tbody>
+</table>

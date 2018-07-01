@@ -1,0 +1,28 @@
+<div>
+<h2 *ngIf="!productInfo || productInfo.id === undefined">Add Product</h2>
+<h2 *ngIf="productInfo && productInfo.id !== undefined">Update Product (ID: {{productInfo.id}})</h2>	
+    <form>
+		<!-- <div class="form-group">
+            <label for="id-input">Id: </label>
+            <input type="number" name="id" id="id-input" [(ngModel)]="productInfo.id" class="form-control" />
+        </div> -->
+        <div class="form-group">
+            <label for="shortsku-input">ShortSku: </label>
+            <input type="string" name="shortSku" id="shortsku-input" [(ngModel)]="productInfo.shortSku" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="description-input">Description: </label>
+            <input type="string" name="description" id="description-input" [(ngModel)]="productInfo.description" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="title-input">Title: </label>
+            <input type="string" name="title"  id="title-input" [(ngModel)]="productInfo.title" class="form-control" />
+        </div>
+		 <div class="form-group">
+            <label for="description-retailprice">RetailPrice: </label>
+            <input type="string" name="retailprice" id="description-retailprice" [(ngModel)]="productInfo.retailPrice" class="form-control" />
+        </div>
+        <button type="button" class="btn btn-primary" (click)="addOrUpdateProduct($event);">Save</button>&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary" (click)="clearProductInfo($event);">Cancel</button>
+    </form>
+   </div>
